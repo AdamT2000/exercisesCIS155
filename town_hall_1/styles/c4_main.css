@@ -1,4 +1,8 @@
 /* the styles for the elements */
+:root
+{
+	--global-color-1: #800000;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -24,4 +28,33 @@ main h3 {
 	font-size: 105%;
 }
 
+h2
+{
+	font-size:170%;
+	color: #800000;
+
+}
+
+h3
+{
+	font-size:130%;
+	
+}
+
+a:focus  a:hover 
+{
+	font-style: italic;
+}
+
+
+.shadow
+{
+	text-shadow: 2px 2px 2px #800000;
+}
 /* the styles for the footer */
+
+
+footer p
+{
+	text-align: center;
+}
