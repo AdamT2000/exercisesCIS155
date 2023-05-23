@@ -188,7 +188,8 @@ footer p {
 	}
 }
 
-@media only screen and (max-width: 648px) {
+@media only screen and (max-width: 648px) 
+{
 	header img { float: none; }
 	header { text-align: center; }
 	main{flex-direction: column;}
