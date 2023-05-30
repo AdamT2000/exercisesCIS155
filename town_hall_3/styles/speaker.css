@@ -1,4 +1,8 @@
 /* the styles for the elements */
+@font-face {
+	font-family: IBM;
+	src: url("CASTELAR.TTF");
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -33,6 +37,7 @@ header {
 header h2 {
 	font-size: 175%;
 	color: #800000;
+	font-family: IBM;
 }
 header h3 {
 	font-size: 130%;
