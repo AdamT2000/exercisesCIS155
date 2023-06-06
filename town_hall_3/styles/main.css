@@ -89,6 +89,39 @@ main {
 	clear: left;
 }
 
+/* Styles for Table*/
+table 
+{
+	border-collapse: collapse;
+}
+
+thead, tfoot 
+{
+	border-top: 3px solid #800000;
+	border-bottom: 3px solid #800000;
+}
+
+tfoot th, tfoot td 
+{
+	text-align: right;
+	font-weight:900;
+}
+
+th, td 
+{
+	padding: .2em .7em;
+	text-align: left;
+}
+
+.border_bottom 
+{
+	border-bottom: 3px solid #800000;
+}
+
+.right 
+{
+	text-align: right;
+}
 /* the styles for the section */
 section {
 	width: 525px;
